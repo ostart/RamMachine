@@ -1,0 +1,21 @@
+﻿<Window x:Class="RamMachine.UI.SettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RamMachine.UI"
+        mc:Ignorable="d"
+        Title="Settings" Height="180" Width="400" WindowStartupLocation="CenterScreen" Loaded="SettingsWindow_OnLoaded">
+    <Grid Background="Lavender">
+        <StackPanel>
+            <GroupBox Name="TimerTicks" Header="Timer ticks in seconds" Padding="5" Margin="20 20 20 10">
+                <WrapPanel>
+                    <Label Target="{Binding ElementName=tbTimerTicksInSec}" Height="30" Width="70" HorizontalAlignment="Left">Value :</Label>
+                    <TextBox Name="tbTimerTicksInSec" Height="30" Width="70" TextAlignment="Center" VerticalContentAlignment="Center"/>
+                </WrapPanel>
+            </GroupBox>
+        </StackPanel>
+        <Button Name="Save" HorizontalAlignment="Right" Margin="0,0,251,25" VerticalAlignment="Bottom" Width="75" Click="Save_Click" >Save</Button>
+        <Button Name="Cancel" HorizontalAlignment="Left" Margin="251,0,0,25" VerticalAlignment="Bottom" Width="75" Click="Cancel_Click" >Cancel</Button>
+    </Grid>
+</Window>

@@ -1,0 +1,11 @@
+READ
+LOAD [0],[1]
+READ
+LOAD [0],[2]
+LOAD 0,[0]
+label:
+ADD [1],[0],[0]
+SUB [2],1,[2]
+JNZ [2],label
+WRITE
+HALT
