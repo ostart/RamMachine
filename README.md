@@ -49,9 +49,9 @@ HALT -- остановиться
 # Описание работы программы
 
 Введите текст программы в окошке Assembler Commands, либо использую меню File -> Open откройте любой из примеров:
-summNumbers.txt - суммирование входных чисел
-findMaxNumber.txt - нахождение максимального из входных чисел
-multiplyTwoNumbers.txt - умножение двух чисел
+- summNumbers.txt - суммирование входных чисел
+- findMaxNumber.txt - нахождение максимального из входных чисел
+- multiplyTwoNumbers.txt - умножение двух чисел
 
 ![Menu File Open](https://github.com/ostart/RamMachine/blob/master/img/menuFile.jpg)
 
